@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import './post-list-item.css';
 export default class PostListItem extends Component {
     constructor(props) {
         super(props);
@@ -44,12 +44,12 @@ export default class PostListItem extends Component {
             <div className="d-flex justify-content-center align-items-center">
                 <button type="button"className="btn-star btn-sm"
                 onClick={this.onImportant}>
-                    <i className="fas fa-star"></i>
+                    <i className="fa fa-star"></i>
                 </button>
                 <button className="btn-trash btn-sm">
-                    <i className="fas fa-trash"></i>
+                    <i className="fa fa-trash"></i>
                 </button>
-                <i className="fas fa-heart"></i>
+                <i className="fa fa-heart"></i>
             </div>
         </div>
         )
